@@ -1,0 +1,14 @@
+Package: READCap
+Type: Package
+Title: Read REDCap
+Version: 1.0
+Date: 2024-04-09
+Authors@R:
+    c(person("Cole", "Beck", role = c("aut", "cre"),
+           email = "cole.beck@vumc.org",
+           comment = c(ORCID = "0000-0002-6849-6255")))
+Maintainer: Cole Beck <cole.beck@vumc.org>
+Description: Keep REDCap data in a local database.
+Imports: DBI, redcapAPI
+License: GPL (>=3)
+RoxygenNote: 7.3.1
